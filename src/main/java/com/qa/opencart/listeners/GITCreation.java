@@ -32,5 +32,29 @@ public class GITCreation {
 		//command: git push origin master
 	
 	
+	//to see commits from command prompt
+			//command: git log
+			//command: git log --oneline
+			//HEAD ->MASTER is latest branch
+		
+		//how to create PR
+		
+		// 1. take clone from remote side
+		
+		//check how many branches
+		// git branch
+		// will show master
+		
+		// create new branch
+		// git branch loginpage
+		// git branch
+		// shows two branches main is master
+		
+		//to switch to login page
+		// git checkout loginpage
+		
+		//check in eclipse
+		// close and open project
 	
+		//test
 }
