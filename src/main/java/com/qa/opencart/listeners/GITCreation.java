@@ -57,4 +57,11 @@ public class GITCreation {
 		// close and open project
 	
 		//test
+	
+		//login branch will be created
+		//click on pull request 
+		//create request and assign to reviewer
+		// submit
+		//reviewer opens and either approves or changes
+		
 }
