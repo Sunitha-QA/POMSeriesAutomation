@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MyTestSuite" verbose="3" parallel="tests" thread-count="3">
+
+
+	<listeners>
+
+		<listener
+			class-name="com.aventstack.chaintest.plugins.ChainTestListener" />
+		<listener
+			class-name="com.qa.opencart.listeners.TestAllureListener" />
+
+		<!--<listener
+			class-name="com.qa.opencart.listeners.AnnotationTransformer" />-->
+	</listeners>
+	
+		<test name="Login Page Test in firefox browser">
+    <parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="com.qa.opencart.tests.LoginPageTest">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Home Page test">
+	    <parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="com.qa.opencart.tests.HomePageTest">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Product Info Page Test">
+	    <parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="com.qa.opencart.tests.ProductResultsTest">
+			</class>
+		</classes>
+	</test>
+
+</suite>
