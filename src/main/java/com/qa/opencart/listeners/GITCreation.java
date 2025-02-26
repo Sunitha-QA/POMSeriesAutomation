@@ -73,4 +73,22 @@ public class GITCreation {
 	// git merge master
 	
 	
+	//how to delete commit
+	
+	//git reset --hard <initial-commit-hash>
+	//	/git log --oneline
+	
+	
+	//storing in temporary memory
+	//git stash
+	//git stash pop
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
