@@ -8,6 +8,8 @@ public class FeaturePage {
 		
 		System.out.println("feature f2 page");
 
+		System.out.println("feature f3 page");
+
 	}
 
 }
