@@ -64,4 +64,13 @@ public class GITCreation {
 		// submit
 		//reviewer opens and either approves or changes
 		
+	//once pull request approved
+	// the updated project will not be coming to eclipse remote project
+	// to change that
+	// command: git pull origin master
+	
+	//if 2 branches created and one has commited and pushes for the other to refelct updates we have to merge locally
+	// git merge master
+	
+	
 }
