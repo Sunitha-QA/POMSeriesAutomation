@@ -5,6 +5,9 @@ public class FeaturePage {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("feature page");
+		
+		System.out.println("feature f2 page");
+
 	}
 
 }
