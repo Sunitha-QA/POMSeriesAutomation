@@ -85,9 +85,13 @@ public class GITCreation {
 	
 	
 	
+	//delete files
+	//to delete previous commit
+	//  git reset --soft HEAD^
+	//  git reset --mixed HEAD^
+	//  git reset --hard HEAD^
 	
-	
-	
+
 	
 	
 	
