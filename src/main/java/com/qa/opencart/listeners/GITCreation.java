@@ -92,7 +92,7 @@ public class GITCreation {
 	//  git reset --hard HEAD^
 	
 	
-	//test for rebase
+	// git push -f origin master
 
 	
 	
