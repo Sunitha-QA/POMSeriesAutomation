@@ -23,7 +23,7 @@ public class LoginPage {
 	private By emailId= By.id("input-email");
 	private By password= By.id("input-password");
 	private By loginButton= By.xpath("//input[@value='Login']");
-	private By forgottenPwd= By.linkText("Forgotten Password11");
+	private By forgottenPwd= By.linkText("Forgotten Password");
 
 	//2. public page actions - methods features
 	@Step("getLoginPageTitle")
