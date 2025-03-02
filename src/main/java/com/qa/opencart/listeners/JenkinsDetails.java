@@ -9,6 +9,28 @@ public class JenkinsDetails {
 	// command: java -jar jenkins.war
 	
 	// enter below in google chrome
-	//localhost:8080 
+	//jenkins url :local
 	//enter user name password
+	
+	//Click on new item and add the project
+	
+	//how to parameterize
+	// in general -> click on -> this project is parameterized
+	// enter name, values, description
+	
+	//in build, goals option
+	// clean install -Denv=${envName}
+	
+	//once cliked on Build with parameters
+	//it will show a dropdown to select environment
+	
+	//cron job periodically
+	
+	/*Jenkins used a cron expression (official documentation), and the different fields are:
+
+		MINUTES Minutes in one hour (0-59)
+		HOURS Hours in one day (0-23)
+		DAYMONTH Day in a month (1-31)
+		MONTH Month in a year (1-12)
+		DAYWEEK Day of the week (0-7) where 0 and 7 are sunday */
 }
