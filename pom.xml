@@ -134,8 +134,8 @@
 					<suiteXmlFiles>
 						<!--<suiteXmlFile>src/test/resources/testrunner/testng_regression.xml</suiteXmlFile> -->
 						<!--<suiteXmlFile>src\test\resource\testRunner\testng.xml</suiteXmlFile>-->
-						<suiteXmlFile>src\test\resources\testRunner\testng_chrome.xml</suiteXmlFile>
-						<!--<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>-->
+						<!--<suiteXmlFile>src\test\resources\testRunner\testng_chrome.xml</suiteXmlFile>-->
+						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 					</suiteXmlFiles>
 
 					<argLine>
