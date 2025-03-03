@@ -15,7 +15,7 @@ public class NGROKWEBHOOKExample {
 	//click on project settings
 	// click on webhooks
 	// click on add
-	//enter URL from terminal
+	//enter URL from terminal - /github-webhook/
 	// if connection established we get message in terminal 200OK
 	
 	//in jenkins
