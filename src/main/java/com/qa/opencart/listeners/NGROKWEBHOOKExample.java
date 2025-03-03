@@ -2,6 +2,7 @@ package com.qa.opencart.listeners;
 
 public class NGROKWEBHOOKExample {
 
+	//both jenkins and ngrok should be enabled before trying to trigger jenkins job for every push
 	
 	//dowload ngrok. unzip, add to path
 	//open terminal 
