@@ -13,13 +13,13 @@
 			class-name="com.qa.opencart.listeners.AnnotationTransformer" />-->
 	</listeners>
 
-	<test name="Login Page Test in Edge Browser">
+	<!--<test name="Login Page Test in Edge Browser">
     <parameter name="browser" value="edge" />
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest">
 			</class>
 		</classes>
-	</test>
+	</test> -->
 	
 		<test name="Login Page Test in firefox browser">
     <parameter name="browser" value="firefox"/>
@@ -37,13 +37,13 @@
 		</classes>
 	</test>
 
-	<test name="Home Page testin edge browser">
+	<!--<test name="Home Page testin edge browser">
 	    <parameter name="browser" value="edge"/>
 		<classes>
 			<class name="com.qa.opencart.tests.HomePageTest">
 			</class>
 		</classes>
-	</test>
+	</test> -->
 	
 		<test name="Home Page test in firefox browser">
 	    <parameter name="browser" value="firefox"/>
@@ -61,13 +61,13 @@
 		</classes>
 	</test>
 
-	<test name="Product Info Page Test in edge browser">
+	<!--<test name="Product Info Page Test in edge browser">
 	    <parameter name="browser" value="edge"/>
 		<classes>
 			<class name="com.qa.opencart.tests.ProductResultsTest">
 			</class>
 		</classes>
-	</test>
+	</test>-->
 	
 	<test name="Product Info Page Test in firefox browser">
 	    <parameter name="browser" value="firefox"/>

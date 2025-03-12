@@ -9,7 +9,7 @@ public class JenkinsDetails {
 	// command: java -jar jenkins.war
 	
 	// enter below in google chrome
-	//jenkins url :local
+	//jenkins url :local  //8080
 	//enter user name password
 	
 	//Click on new item and add the project
