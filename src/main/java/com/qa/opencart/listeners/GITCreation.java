@@ -4,7 +4,7 @@ public class GITCreation {
 	//create repository in GIT
 	//1. check GIT installed 
 		// command: git --version
-	//2. got to project
+	//2. go to project
 		// command: cd project path
 	//3. check git folder created
 		//command: dir
