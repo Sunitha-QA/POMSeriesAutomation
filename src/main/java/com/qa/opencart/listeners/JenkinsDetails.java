@@ -33,4 +33,8 @@ public class JenkinsDetails {
 		DAYMONTH Day in a month (1-31)
 		MONTH Month in a year (1-12)
 		DAYWEEK Day of the week (0-7) where 0 and 7 are sunday */
+	
+	
+	//if port is used by other tool and need to change port number
+	// java -jar jenkins.war --httpPort=9090
 }
