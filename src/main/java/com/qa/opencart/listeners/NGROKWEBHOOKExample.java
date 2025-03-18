@@ -11,7 +11,7 @@ public class NGROKWEBHOOKExample {
 	// ngrok http 8080
 	
 	
-	//go to jenkins
+	//go to git
 	//click on project settings
 	// click on webhooks
 	// click on add

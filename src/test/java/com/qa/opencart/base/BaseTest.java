@@ -41,13 +41,15 @@ public class BaseTest {
 	protected CommonsPage commonspage;
 	
 	@BeforeTest
-	@Parameters("browser")
-	public void setup(String browserName) {
+	@Parameters({"browser","browserVersion"})
+	public void setup(String browserName, String browserVersion) {
 		df=new DriverFactory();
 		prop= df.initProp();
 		
 		if(browserName != null) {
 			prop.setProperty("browser", browserName);
+			prop.setProperty("browserversion", browserVersion);
+
 		}
 		driver=df.initDriver(prop);
 		loginpage=new LoginPage(driver);

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MyTestSuite" verbose="3" parallel="tests" thread-count="3">
+
+
+	<listeners>
+
+		<listener
+			class-name="com.aventstack.chaintest.plugins.ChainTestListener" />
+		<listener
+			class-name="com.qa.opencart.listeners.TestAllureListener" />
+
+		<!--<listener
+			class-name="com.qa.opencart.listeners.AnnotationTransformer" />-->
+	</listeners>
+
+
+	<test name="Login Page Test in firefox browser 124">
+		<parameter name="browser" value="firefox" />
+		<parameter name="browserVersion" value="124.0" />
+		<classes>
+			<class name="com.qa.opencart.tests.LoginPageTest">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Login Page Test in chrome browser 126">
+		<parameter name="browser" value="chrome" />
+		<parameter name="browserVersion" value="126.0" />
+		<classes>
+			<class name="com.qa.opencart.tests.LoginPageTest">
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="Home Page test in firefox browser 125">
+		<parameter name="browser" value="firefox" />
+		<parameter name="browserVersion" value="125.0" />
+		<classes>
+			<class name="com.qa.opencart.tests.HomePageTest">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Home Page test in chrome browser 123">
+		<parameter name="browser" value="chrome" />
+		<parameter name="browserVersion" value="123.0" />
+		<classes>
+			<class name="com.qa.opencart.tests.HomePageTest">
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="Product Info Page Test in firefox browser 105">
+		<parameter name="browser" value="firefox" />
+		<parameter name="browserVersion" value="105.0" />
+		<classes>
+			<class name="com.qa.opencart.tests.ProductResultsTest">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Product Info Page Test in chrome browser 113">
+		<parameter name="browser" value="chrome" />
+		<parameter name="browserVersion" value="113.0" />
+		<classes>
+			<class name="com.qa.opencart.tests.ProductResultsTest">
+			</class>
+		</classes>
+	</test>
+
+</suite>
